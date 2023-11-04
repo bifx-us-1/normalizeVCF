@@ -1,5 +1,5 @@
-sequence="GGGCACACACAGGG"
-sequence2="GGGCACACAGGG"
+sequence = "GGGCACACACAGGG"
+sequence2 = "GGGCACACAGGG"
 position=0
 length=len(sequence)
 #if len(sequence)>len(sequence2):
