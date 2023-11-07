@@ -1,11 +1,5 @@
-sequence = "GGGCACACACAGGG"
-sequence2 = "GGGCACACAGGG"
-position=0
-length=len(sequence)
-#if len(sequence)>len(sequence2):
-    #length=len(sequence2)
-#for position in range(length): 
-    #if sequence[position]!=sequence2[position]: print(position+1,sequence[position],sequence2[position])
+sequence="GGGCACACACAGGG"
+sequence2="GGGCACACAGGG"
 
 Pos=8
 Ref="CA"
