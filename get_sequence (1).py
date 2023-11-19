@@ -1,6 +1,6 @@
 import requests
 
-#Yutao's edit
+#Adam's edit
 
 def retrieve_sequence_from_ucsc(genome, chrom, start, end):
     base_url = "https://api.genome.ucsc.edu/"
