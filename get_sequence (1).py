@@ -1,5 +1,7 @@
 import requests
 
+#Yutao's edit
+
 def retrieve_sequence_from_ucsc(genome, chrom, start, end):
     base_url = "https://api.genome.ucsc.edu/"
     endpoint = f"/getData/sequence?genome={genome};chrom={chrom};start={start};end={end}"
