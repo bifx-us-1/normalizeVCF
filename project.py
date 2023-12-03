@@ -1,5 +1,12 @@
-sequence="GGGCACACACAGGG"
-sequence2="GGGCACACAGGG"
+with open("sequence_file.txt", "r") as file:
+    sequence = file.read().strip()
+
+# Read sequence2 from text file
+with open("sequence2_file.txt", "r") as file:
+    sequence2 = file.read().strip()
+
+# sequence="GGGCACACACAGGG"
+# sequence2="GGGCACACAGGG"
 
 Pos=8
 Ref="CA"
