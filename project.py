@@ -1,8 +1,17 @@
-with open("sequence_file.txt", "r") as file:
+import sys
+
+if len(sys.argv) != 3:
+    print("Usage: python script.py sequence_file.txt sequence2_file.txt")
+    sys.exit(1)
+
+# Read sequence from the first command line argument
+sequence_filename = sys.argv[1]
+with open(sequence_filename, "r") as file:
     sequence = file.read().strip()
 
-# Read sequence2 from text file
-with open("sequence2_file.txt", "r") as file:
+# Read sequence2 from the second command line argument
+sequence2_filename = sys.argv[2]
+with open(sequence2_filename, "r") as file:
     sequence2 = file.read().strip()
 
 # sequence="GGGCACACACAGGG"
