@@ -27,6 +27,3 @@ if Alt == "":
 print("Updated Pos:", Pos)
 print("Updated Ref:", Ref)
 print("Updated Alt:", Alt)
-
-
-
